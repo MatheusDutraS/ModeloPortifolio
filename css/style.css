@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+@import url('main.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('responsivo.css');
+@import url('curriculo.css');
+
+:root {
+    --fonte-principal: 'Krona one';
+    --fonte-secundaria: 'Montserrat';
+    --cor-primaria: #171717;
+    --cor-secundaria: #EDEDED;
+    --cor-terciaria: #DA0037;
+    --cor-hover: #444444;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}

@@ -1,0 +1,30 @@
+.apresentacao__curriculo {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.apresentacao__curriculo__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+}
+
+h2.apresentacao__curriculo__titulo{
+    margin-top: 1.5em;
+}
+
+.apresentacao__curriculo__texto {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--branco);
+}
+
+.lista__item {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px) {
+    /* Cabeçalho */
+    .cabecalho__menu {
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.75rem;
+    }
+
+    /* Main */
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        padding: 5rem 5vw 3rem;
+    }
+
+    .apresentacao__descricao {
+        width: 100%;
+    }
+
+    .apresentacao__imagem {
+        width: 80%;
+        align-self: center;
+        order: -1;
+    }
+
+    .descricao__titulo {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .descricao__texto {
+        font-size: .75rem;
+        line-height: 1.5rem;
+    }
+
+    .links__titulo .link{
+        font-size: 1.25rem;
+    }
+
+        /* Currículo */
+    .apresentacao__curriculo__titulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__curriculo__texto {
+        font-size: 1.25rem;
+    }
+
+    .lista__item {
+        font-size: .75rem;
+    }
+
+    /* Rodape */
+    .rodape__texto {
+        font-size: 1.25rem;
+    }
+
+    /* Rodapé */
+    .rodape--mobile {
+        margin-top: 5rem;
+    }
+}
